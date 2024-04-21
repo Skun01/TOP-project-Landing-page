@@ -15,7 +15,7 @@ body{
 
 header{
     background-color: #1f2937;
-    padding: 0 150px;
+    padding: 0 160px;
 }
 /* header navigation */
 
@@ -45,4 +45,52 @@ li a{
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
+}
+
+/* header information */
+
+header .slider{
+    display: flex;
+    height: 440px;
+    padding: 100px 0;
+}
+
+.slider-content{
+    width: 50%;
+    padding-right: 70px;
+    color: #f9faf8;
+}
+
+.slider-title{
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+.slider-content .desc{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.slider-content .btn{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+
+.slider-img{
+    width: 50%;
+    text-align: center;
+    background-color: #b9b7b7;
+}
+
+.slider-img .img{
+    
 }
