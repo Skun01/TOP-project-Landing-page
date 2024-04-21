@@ -99,12 +99,13 @@ header .slider{
 /* main content */
 
 main{
-    margin: 0 160px;
+    
 }
 
 .introduce{
     text-align: center;
-    padding-bottom: 100px;;
+    padding-bottom: 100px;
+    margin: 0 160px;
 }
 
 .intro-list{
@@ -130,4 +131,23 @@ main{
     border: 3px solid #3882f6;
     border-radius: 20px;
     margin-bottom: 10px;
+}
+
+/* advice phrase */
+
+.advice-phrase{
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+}
+
+.advice-phrase .phrase{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.advice-phrase .author{
+    float: right;
+    font-size: 20px;
 }
