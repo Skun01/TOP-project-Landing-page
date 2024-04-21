@@ -151,3 +151,37 @@ main{
     float: right;
     font-size: 20px;
 }
+
+/* sighn up section */
+
+.sign-up-section{
+    padding: 80px 160px;
+    color:#f9faf8;
+}
+
+.sign-up-section .container{
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 100px;
+}
+
+.container .btn{
+    color: #f9faf8;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    background-color: transparent;
+    padding: 2px 20px !important;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sign-up-infor .desc{
+    color:#e5e7eb;
+}
+
+
+
+
